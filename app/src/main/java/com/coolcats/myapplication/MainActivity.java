@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
 
         switch (operand){
             default:
-                result = currentValue;
+                result = currentValue +1;
                 break;
             case PLUS:
                 result = storedValue + currentValue;
